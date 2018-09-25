@@ -10,7 +10,7 @@
     public class BitwiseArgumentsInMethodTests
     {
         /// <summary>
-        /// chech the functionality of the Bitwise operator  when Enum is attributed as [Flags].
+        /// check the functionality of the Bitwise operator  when Enum is attributed as [Flags].
         /// </summary>
         [TestMethod]
         public void BitwiseArgumentsInMethodTests1()
