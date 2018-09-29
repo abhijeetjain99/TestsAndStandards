@@ -17,7 +17,7 @@
         {
             Attributes attributeObject = Attributes.Setting1 | Attributes.Setting3;
 
-            attributeObject.HasFlag(Attributes.Setting2).Should().BeFalse("attributeObject do not have flag fot setting2");
+            attributeObject.HasFlag(Attributes.Setting2).Should().BeFalse("attributeObject do not have flag for setting2");
             attributeObject.HasFlag(Attributes.Setting1).Should().BeTrue("attributeObject has flag for setting1");
         }
     }

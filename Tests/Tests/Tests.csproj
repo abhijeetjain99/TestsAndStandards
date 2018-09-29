@@ -63,11 +63,15 @@
   </Choose>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Standards\Attributes.cs" />
-    <Compile Include="Standards\BitwiseArgumentsInMethodTests.cs" />
+    <Compile Include="Standards\BitwiseArguments\Attributes.cs" />
+    <Compile Include="Standards\BitwiseArguments\BitwiseArgumentsInMethodTests.cs" />
+    <Compile Include="Standards\RegularExpression\ResularExpression.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Standards\RegularExpression\File.txt" />
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
