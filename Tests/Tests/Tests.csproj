@@ -72,6 +72,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Standards\RegularExpression\File.txt" />
+    <Content Include="Standards\RegularExpression\Readme.txt" />
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
