@@ -35,7 +35,7 @@
             }
             StringBuilder allText = new StringBuilder();
 
-
+            
             foreach (string line in newFile)
             {
 
